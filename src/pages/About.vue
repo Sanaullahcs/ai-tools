@@ -2,7 +2,7 @@
 	<div>
 		<div class="my-app">
 			<Header :logo-src="require('@/assets/images/logo.png')" />
-			<PageHeader page-title="About TechAI" />
+			<PageHeader page-title="About Ai Savr" />
 			<Introduction />
 			<Sponsor />
 			<Benefits />

@@ -7,7 +7,7 @@
                         <div class="section__header text-start">
                             <h2 class="h2">
                                 Generate content in seconds using
-                                <span class="grd">Tech AI</span>
+                                <span class="grd">Ai Savr</span>
                             </h2>
                         </div>
                         <div>

@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section__header wow fadeInUp" data-wow-duration="600ms" data-wow-delay="300ms">
-                        <h4 class="h2">professionals & teams choose tech ai.</h4>
+                        <h4 class="h2">professionals & teams choose Ai Savr.</h4>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                         </div>
                         <div class="review-content">
                             <p class="fw-7">
-                                tech ai saves us thousands of dollars a week. We create
+                                Ai Savr saves us thousands of dollars a week. We create
                                 content briefs and write 50-100 unique SEO-driven pieces per
                                 month. With tech.ai, we now craft briefs, outlines, and full
                                 first.
@@ -54,7 +54,7 @@
                         </div>
                         <div class="review-content">
                             <p class="fw-7">
-                                tech ai saves us thousands of dollars a week. We create
+                                Ai Savr saves us thousands of dollars a week. We create
                                 content briefs and write 50-100 unique SEO-driven pieces per
                                 month. With tech.ai, we now craft briefs, outlines, and full
                                 first.
@@ -83,7 +83,7 @@
                         </div>
                         <div class="review-content">
                             <p class="fw-7">
-                                tech ai saves us thousands of dollars a week. We create
+                                Ai Savr saves us thousands of dollars a week. We create
                                 content briefs and write 50-100 unique SEO-driven pieces per
                                 month. With tech.ai, we now craft briefs, outlines, and full
                                 first.
@@ -112,7 +112,7 @@
                         </div>
                         <div class="review-content">
                             <p class="fw-7">
-                                tech ai saves us thousands of dollars a week. We create
+                                Ai Savr saves us thousands of dollars a week. We create
                                 content briefs and write 50-100 unique SEO-driven pieces per
                                 month. With tech.ai, we now craft briefs, outlines, and full
                                 first.
@@ -141,7 +141,7 @@
                         </div>
                         <div class="review-content">
                             <p class="fw-7">
-                                tech ai saves us thousands of dollars a week. We create
+                                Ai Savr saves us thousands of dollars a week. We create
                                 content briefs and write 50-100 unique SEO-driven pieces per
                                 month. With tech.ai, we now craft briefs, outlines, and full
                                 first.
@@ -170,7 +170,7 @@
                         </div>
                         <div class="review-content">
                             <p class="fw-7">
-                                tech ai saves us thousands of dollars a week. We create
+                                Ai Savr saves us thousands of dollars a week. We create
                                 content briefs and write 50-100 unique SEO-driven pieces per
                                 month. With tech.ai, we now craft briefs, outlines, and full
                                 first.
@@ -199,7 +199,7 @@
                         </div>
                         <div class="review-content">
                             <p class="fw-7">
-                                tech ai saves us thousands of dollars a week. We create
+                                Ai Savr saves us thousands of dollars a week. We create
                                 content briefs and write 50-100 unique SEO-driven pieces per
                                 month. With tech.ai, we now craft briefs, outlines, and full
                                 first.
@@ -228,7 +228,7 @@
                         </div>
                         <div class="review-content">
                             <p class="fw-7">
-                                tech ai saves us thousands of dollars a week. We create
+                                Ai Savr saves us thousands of dollars a week. We create
                                 content briefs and write 50-100 unique SEO-driven pieces per
                                 month. With tech.ai, we now craft briefs, outlines, and full
                                 first.

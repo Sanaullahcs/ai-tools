@@ -32,7 +32,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-xl-2 col-xxl-2">
                     <div class="footer-two__single wow fadeInUp" data-wow-duration="600ms" data-wow-delay="200ms">
-                        <h5 class="h5">About tech AI</h5>
+                        <h5 class="h5">About Ai Savr</h5>
                         <ul>
                             <li>
                                 <a href="javascript:void(0)">About</a>

@@ -17,50 +17,7 @@
                                                     Home
                                                 </router-link>
                                             </li>
-								<li class="nav__menu-item nav__menu-item--dropdown">
-                                    <a href="javascript:void(0)" class="nav__menu-link nav__menu-link--dropdown">
-                                        Ai Tools
-                                    </a>
-                                    <div class="nav__dropdown nav__dropdown--alt">
-                                        <ul>
-                                            <li>
-                                                <router-link to="/" class="nav__dropdown-item hide-nav">
-                                                    Content Writer
-                                                </router-link>
-                                            </li>
-                                            <li>
-                                                <router-link to="/comingsoon" class="nav__dropdown-item hide-nav">
-                                                    Background Remover
-                                                </router-link>
-                                            </li>
-                                            <li>
-                                                <router-link to="/comingsoon" class="nav__dropdown-item hide-nav">
-                                                    Resume Builder
-                                                </router-link>
-                                            </li>
-                                            <li>
-                                                <router-link to="/comingsoon" class="nav__dropdown-item hide-nav">
-                                                    Copy Writing
-                                                </router-link>
-                                            </li>
-                                            <li>
-                                                <router-link to="/comingsoon" class="nav__dropdown-item hide-nav">
-                                                    Write Code
-                                                </router-link>
-                                            </li>
-                                            <li>
-                                                <router-link to="/comingsoon" class="nav__dropdown-item hide-nav">
-                                                    Image Generator
-                                                </router-link>
-                                            </li>
-                                            <li>
-                                                <router-link to="/comingsoon" class="nav__dropdown-item hide-nav">
-                                                    Video Creation
-                                                </router-link>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
+								
                                 <li class="nav__menu-item nav__menu-item--dropdown">
                                     <a href="/blog-two" class="nav__menu-link">
                                         Blogs
@@ -70,6 +27,12 @@
                                     <router-link to="/about" class="nav__menu-link hide-nav">About
                                         Us</router-link>
                                 </li>
+
+								<li class="nav__menu-item">
+                                    <router-link to="/contact-us" class="nav__menu-link hide-nav">Contact
+                                        Us</router-link>
+                                </li>
+								
                                 <li class="nav__menu-item nav__menu-item--dropdown">
                                     <a href="/use-case" class="nav__menu-link">
                                         Use
@@ -117,10 +80,7 @@
                                     </ul>
                                 </li> -->
 
-                                <li class="nav__menu-item">
-                                    <router-link to="/contact-us" class="nav__menu-link hide-nav">Contact
-                                        Us</router-link>
-                                </li>
+                               
 								
                                 <!-- <li class="nav__menu-item d-block d-md-none">
                                     <router-link to="/sign-up" class="btn btn--septenary">
@@ -128,6 +88,50 @@
                                         Up
                                     </router-link>
                                 </li> -->
+								<li class="nav__menu-item nav__menu-item--dropdown">
+                                    <a href="javascript:void(0)" class="nav__menu-link nav__menu-link--dropdown">
+                                        Savr Tools
+                                    </a>
+                                    <div class="nav__dropdown nav__dropdown--alt">
+                                        <ul>
+                                            <li>
+                                                <router-link to="/" class="nav__dropdown-item hide-nav">
+                                                    Content Writer
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link to="/comingsoon" class="nav__dropdown-item hide-nav">
+                                                    Background Remover
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link to="/comingsoon" class="nav__dropdown-item hide-nav">
+                                                    Resume Builder
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link to="/comingsoon" class="nav__dropdown-item hide-nav">
+                                                    Copy Writing
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link to="/comingsoon" class="nav__dropdown-item hide-nav">
+                                                    Write Code
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link to="/comingsoon" class="nav__dropdown-item hide-nav">
+                                                    Image Generator
+                                                </router-link>
+                                            </li>
+                                            <li>
+                                                <router-link to="/comingsoon" class="nav__dropdown-item hide-nav">
+                                                    Video Creation
+                                                </router-link>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
                             </ul>
                             <div class="social">
                                 <a href="https://www.facebook.com" aria-label="social media">

@@ -14,7 +14,7 @@
                                                 <div class="content">
                                                     <h2 class="h2">Write Factual Trending Content</h2>
                                                     <p>
-                                                        tech AI is trained and powered by 'Google Search'
+                                                        Ai Savr is trained and powered by 'Google Search'
                                                         to chat with you on current events and trending
                                                     </p>
                                                     <router-link to="/sign-in">
@@ -35,7 +35,7 @@
                                                 <div class="content">
                                                     <h2 class="h2">Write anywhere and everywhere</h2>
                                                     <p>
-                                                        tech AI is trained and powered by 'Google Search'
+                                                        Ai Savr is trained and powered by 'Google Search'
                                                         to chat with you on current events and trending
                                                     </p>
                                                     <router-link to="/sign-in">
@@ -55,7 +55,7 @@
                                                 <div class="content">
                                                     <h2 class="h2">Write Factual Trending Content</h2>
                                                     <p>
-                                                        tech AI is trained and powered by 'Google Search'
+                                                        Ai Savr is trained and powered by 'Google Search'
                                                         to chat with you on current events and trending
                                                     </p>
                                                     <router-link to="/sign-in">
@@ -76,7 +76,7 @@
                                                 <div class="content">
                                                     <h2 class="h2">Write anywhere and everywhere</h2>
                                                     <p>
-                                                        tech AI is trained and powered by 'Google Search'
+                                                        Ai Savr is trained and powered by 'Google Search'
                                                         to chat with you on current events and trending
                                                     </p>
                                                     <router-link to="/sign-in">
@@ -96,7 +96,7 @@
                                                 <div class="content">
                                                     <h2 class="h2">Write Factual Trending Content</h2>
                                                     <p>
-                                                        tech AI is trained and powered by 'Google Search'
+                                                        Ai Savr is trained and powered by 'Google Search'
                                                         to chat with you on current events and trending
                                                     </p>
                                                     <router-link to="/sign-in">
@@ -117,7 +117,7 @@
                                                 <div class="content">
                                                     <h2 class="h2">Write anywhere and everywhere</h2>
                                                     <p>
-                                                        tech AI is trained and powered by 'Google Search'
+                                                        Ai Savr is trained and powered by 'Google Search'
                                                         to chat with you on current events and trending
                                                     </p>
                                                     <router-link to="/sign-in">

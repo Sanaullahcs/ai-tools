@@ -23,7 +23,7 @@
                         </div>
                         <div class="review-content">
                             <p class="fw-7">
-                                tech ai saves us thousands of dollars a week. We create
+                                Ai Savr saves us thousands of dollars a week. We create
                                 content briefs and write 50-100 unique SEO-driven pieces per
                                 month. With tech.ai, we now craft briefs, outlines, and full
                                 first.
@@ -54,7 +54,7 @@
                         </div>
                         <div class="review-content">
                             <p class="fw-7">
-                                tech ai saves us thousands of dollars a week. We create
+                                Ai Savr saves us thousands of dollars a week. We create
                                 content briefs and write 50-100 unique SEO-driven pieces per
                                 month. With tech.ai, we now craft briefs, outlines, and full
                                 first.
@@ -85,7 +85,7 @@
                         </div>
                         <div class="review-content">
                             <p class="fw-7">
-                                tech ai saves us thousands of dollars a week. We create
+                                Ai Savr saves us thousands of dollars a week. We create
                                 content briefs and write 50-100 unique SEO-driven pieces per
                                 month. With tech.ai, we now craft briefs, outlines, and full
                                 first.
@@ -116,7 +116,7 @@
                         </div>
                         <div class="review-content">
                             <p class="fw-7">
-                                tech ai saves us thousands of dollars a week. We create
+                                Ai Savr saves us thousands of dollars a week. We create
                                 content briefs and write 50-100 unique SEO-driven pieces per
                                 month. With tech.ai, we now craft briefs, outlines, and full
                                 first.

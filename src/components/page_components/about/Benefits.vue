@@ -7,7 +7,7 @@
                         <div class="row align-items-center items-gap">
                             <div class="col-12 col-lg-8 col-xl-6">
                                 <h2 class="h2 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="300ms">
-                                    Why tech AI Background Eraser Will Impress You?
+                                    Why Ai Savr Background Eraser Will Impress You?
                                 </h2>
                             </div>
                             <div class="col-12 col-lg-4 col-xl-6">
