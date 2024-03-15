@@ -27,7 +27,7 @@
                                         </i>
                                     </a>
                                     <span>OR</span>
-                                    <a href="mailto:support@techai.com">
+                                    <a href="mailto:support@AI Savr.com">
                                         Request a feature
                                         <i class="fa-solid fa-angle-right">
                                         </i>

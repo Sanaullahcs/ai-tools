@@ -2,7 +2,7 @@
     <section class="section update-cta pb-0">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" style="margin-bottom: 40px;">
                     <div class="update-cta__inner bg-img wow fadeInUp" data-wow-duration="600ms" data-wow-delay="300ms" >
                         <div class="section__header">
                             <h2 class="h2 text-white">Get updates</h2>

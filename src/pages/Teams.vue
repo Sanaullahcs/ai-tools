@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="my-app">
+        <div class="my-app home-two-dark">
             <Header :logo-src="require('@/assets/images/logo.png')" />
             <PageHeader page-title="Our Team" />
             <section class="section team-main pb-0">

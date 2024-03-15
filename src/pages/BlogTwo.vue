@@ -2,7 +2,7 @@
     <div>
         <div class="my-app">
             <Header :logo-src="require('@/assets/images/logo.png')" />
-            <PageHeader page-title="Blog Layout 2" />
+            <PageHeader page-title="Blogs" />
             <section class="section pb-0 news-section">
                 <div class="container">
                     <div class="row items-gap">
