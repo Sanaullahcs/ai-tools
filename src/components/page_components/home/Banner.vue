@@ -4,11 +4,11 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-9">
                     <div class="banner-two__content wow fadeInUp" data-wow-duration="600ms" data-wow-delay="300ms">
-                        <h1 class="h1" style="color: #B31AA0 !important; margin-top: -150px;">Ai Savr</h1>
+                        <h1 class="h1" style="color: #B31AA0 !important; margin-top: -100px;">Ai Savr</h1>
                        
                         <h1 class="h1" style="margin-bottom: 76px;">best ai writer for creating</h1>
-                        <h2 class="h1">
-                            <span id="textTyped" style="margin-bottom: 50px;">Create human-quality blog posts</span>
+                        <h2 class="h1" style="margin-bottom: 76px;">
+                            <span id="textTyped">Your AI Writer</span>
                         </h2>
                         <p class="text-lg">
                             Create human-quality blog posts, SEO articles, news, press
