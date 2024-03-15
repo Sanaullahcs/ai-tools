@@ -1,31 +1,37 @@
 <template>
-    <footer class="footer section pb-0">
+    <footer class="footer-two section bg-img">
         <div class="container">
             <div class="row items-gap-two">
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="footer__single wow fadeInUp" data-wow-duration="600ms">
-                        <h5 class="h5">our Products</h5>
-                        <ul>
-                            <li>
-                                <a href="javascript:void(0)"> AI Article Writer</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)"> Image background remover</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)"> audio voice over AI</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)"> Text Summarizer AI</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">Art Generator</a>
-                            </li>
-                        </ul>
+                <div class="col-12 col-sm-6 col-xl-4 col-xxl-5">
+                    <div class="footer-two__single bt wow fadeInUp" data-wow-duration="600ms">
+                        <router-link to="/" class="logo">
+                            <img :src="require('@/assets/images/logo-three.png')" alt="Image">
+                        </router-link>
+                        <p>
+                            Copyright &copy;
+                            <span id="copyYear"></span>
+                            <router-link to="/">AI Savr</router-link>
+                            . Design By
+                            <a href="https://themeforest.net/user/gramentheme">Gramentheme</a>
+                        </p>
+                        <div class="social">
+                            <a href="https://www.facebook.com" aria-label="social media">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.twitter.com" aria-label="social media">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="https://www.linkedin.com" aria-label="social media">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com" aria-label="social media">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="footer__single wow fadeInUp" data-wow-duration="600ms" data-wow-delay="200ms">
+                <div class="col-12 col-sm-6 col-xl-2 col-xxl-2">
+                    <div class="footer-two__single wow fadeInUp" data-wow-duration="600ms" data-wow-delay="200ms">
                         <h5 class="h5">About tech AI</h5>
                         <ul>
                             <li>
@@ -46,104 +52,65 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="footer__single wow fadeInUp" data-wow-duration="600ms" data-wow-delay="400ms">
-                        <h5 class="h5">Use Cases</h5>
+                <div class="col-12 col-sm-6 col-xl-2 col-xxl-2">
+                    <div class="footer-two__single wow fadeInUp" data-wow-duration="600ms" data-wow-delay="400ms">
+                        <h5 class="h5">Free tools</h5>
                         <ul>
                             <li>
-                                <a href="javascript:void(0)"> AI Voiceover for Videos</a>
+                                <a href="javascript:void(0)"> AI Article Writer</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">E- Learning</a>
+                                <a href="javascript:void(0)">Paraphrasing Tool</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)"> All interactive Voice</a>
+                                <a href="javascript:void(0)"> Sentence Expander</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)"> Auto Accessibility</a>
+                                <a href="javascript:void(0)"> Text SummarizerAI</a>
                             </li>
                             <li>
-                                <a href="javascript:void(0)">YouTube Videos</a>
+                                <a href="javascript:void(0)">Art Generator</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <div class="footer__single wow fadeInUp" data-wow-duration="600ms" data-wow-delay="600ms">
-                        <h5 class="h5">support</h5>
-                        <ul>
-                            <li>
-                                <a href="javascript:void(0)">Privacy Policy</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">Terms of Service</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">Cookie Policy</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">FAQ</a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)">Helpdesk</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="copyright-inner">
-                        <div class="row items-gap align-items-center">
-                            <div class="col-12 col-lg-3">
-                                <div class="logo text-center text-lg-start">
-                                    <router-link to="/">
-                                        <img :src="require('@/assets/images/logo-two.png')" alt="Image">
-                                    </router-link>
+                <div class="col-12 col-sm-6 col-xl-4 col-xxl-3">
+                    <div class="footer-two__single wow fadeInUp" data-wow-duration="600ms" data-wow-delay="600ms">
+                        <h5 class="h5">Art Generator</h5>
+                        <div class="footer-two__form">
+                            <h6 class="h6">Ready to unlock your full potential?</h6>
+                            <form action="#" method="post">
+                                <div class="mail-group">
+                                    <input type="email" name="subscribe-news" id="subscribeNews"
+                                        placeholder="Enter Mail" required>
+                                    <button type="submit" aria-label="subscribe to our newsletter">
+                                        <i class="fa-regular fa-paper-plane"></i>
+                                    </button>
                                 </div>
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <p class="text-center">
-                                    Copyright &copy;
-                                    <span id="copyYear"></span>
-                                    <router-link to="/">techAI</router-link>
-                                    . Designed By
-                                    <a href="https://themeforest.net/user/gramentheme">Gramentheme</a>
-                                </p>
-                            </div>
-                            <div class="col-12 col-lg-3">
-                                <div class="social justify-content-center justify-content-lg-end">
-                                    <a href="https://www.facebook.com" aria-label="social media">
-                                        <i class="fa-brands fa-facebook-f"></i>
-                                    </a>
-                                    <a href="https://www.twitter.com" aria-label="social media">
-                                        <i class="fa-brands fa-twitter"></i>
-                                    </a>
-                                    <a href="https://www.linkedin.com" aria-label="social media">
-                                        <i class="fa-brands fa-linkedin-in"></i>
-                                    </a>
-                                    <a href="https://www.instagram.com" aria-label="social media">
-                                        <i class="fa-brands fa-instagram"></i>
-                                    </a>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="anime">
-            <img :src="require('@/assets/images/footer-anime-one.png')" alt="Image" class="one">
-            <img :src="require('@/assets/images/footer-anime-two.png')" alt="Image" class="two">
         </div>
     </footer>
 </template>
 
 <script>
     export default {
-        name: "Footer",
+        name: "Footer2",
         mounted(){
             document.getElementById('copyYear').textContent = new Date().getFullYear();
         }
     };
 </script>
+
+<style>
+    .footer-two {
+        background-image: url('~@/assets/images/footer-two-bg.png');
+    }
+
+    .home-two-light .footer-two {
+        background-image: url('~@/assets/images/footer-two-bg-light.png');
+    }
+</style>

@@ -1,20 +1,20 @@
 <template>
 	<div>
-		<div class="my-app home-dark">
-			<Header class="header--dark" :logo-src="require('@/assets/images/logo-two.png')"/>
+		<div class="my-app home-two-dark">
+			<Header class="header--dark" />
 			<MobileMenu />
+			<div class="mobile-menu__backdrop"></div>
 			<Banner />
-			<Overview />
-			<Voice />
-			<Clone />
-			<Sponsor />
+			<Testimonials />
+			<Generate />
 			<Tour />
-			<Case />
-			<Broadcast />
+			<Publish />
+			<hr id="horizon-break">
+			<Features />
+			<Pricing />
 			<FAQ />
-			<Language />
-			<Review />
 			<CTA />
+			<Tools />
 			<Footer />
 		</div>
 		<BackToTop />
@@ -22,42 +22,47 @@
 </template>
 
 <script>
-import Header from '../components/layout/Header.vue'
-import MobileMenu from '../components/layout/MobileMenu.vue'
-import Banner from '../components/page_components/home/Banner.vue'
-import Overview from '../components/page_components/home/Overview.vue'
-import Voice from '../components/page_components/home/Voice.vue'
-import Clone from '../components/page_components/home/Clone.vue'
-import Sponsor from '../components/page_components/home/Sponsor.vue'
-import Tour from '../components/page_components/home/Tour.vue'
-import Case from '../components/page_components/home/Case.vue'
-import Broadcast from '../components/page_components/home/Broadcast.vue'
-import FAQ from '../components/page_components/home/FAQ.vue'
-import Language from '../components/page_components/home/Language.vue'
-import Review from '../components/page_components/home/Review.vue'
-import CTA from '../components/page_components/home/CTA.vue'
-import Footer from '../components/layout/Footer.vue'
-import BackToTop from '../components/common/BackToTop.vue'
+	import Header from '../components/layout/Header.vue'
+	import MobileMenu from '../components/layout/MobileMenu.vue'
+	import Banner from '../components/page_components/home/Banner.vue'
+	import Testimonials from '../components/page_components/home/Testimonials.vue'
+	import Generate from '../components/page_components/home/Generate.vue'
+	import Tour from '../components/page_components/home/Tour.vue'
+	import Publish from '../components/page_components/home/Publish.vue'
+	import Features from '../components/page_components/home/Features.vue'
+	import Pricing from '../components/page_components/home/Pricing.vue'
+	import FAQ from '../components/page_components/home/FAQ.vue'
+	import CTA from '../components/page_components/home/CTA.vue'
+	import Tools from '../components/page_components/home/Tools.vue'
+	import Footer from '../components/layout/Footer.vue'
+	import BackToTop from '../components/common/BackToTop.vue'
 	export default {
 		name: "Home",
 		components: {
 			Header,
 			MobileMenu,
 			Banner,
-			Overview,
-			Voice,
-			Clone,
-			Sponsor,
+			Testimonials,
+			Generate,
 			Tour,
-			Case,
-			Broadcast,
+			Publish,
+			Features,
+			Pricing,
 			FAQ,
-			Language,
-			Review,
 			CTA,
+			Tools,
 			Footer,
 			BackToTop
 		},
-		
 	};
 </script>
+
+<style>
+	.home-two-dark .anime--light {
+		display: none;
+	}
+
+	.home-two-light .anime--dark {
+		display: none;
+	}
+</style>

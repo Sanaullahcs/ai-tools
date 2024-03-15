@@ -16,7 +16,7 @@
                         </div>
                         <h5 class="h5">
                             <router-link to="/use-case-single">
-                                TechAI ChatGPT API
+                                AI Savr ChatGPT API
                                 <i class="tech-arrow-top">
                                 </i>
                             </router-link>
