@@ -5,7 +5,7 @@
                 <div class="col-12 col-xl-9">
                     <div class="banner-two__content wow fadeInUp" data-wow-duration="600ms" data-wow-delay="300ms">
                         <h1 class="h1" style="color: #B31AA0 !important; margin-top: -100px;">Ai Savr</h1>
-                       
+
                         <h1 class="h1" style="margin-bottom: 76px;">best ai writer for creating</h1>
                         <h2 class="h1" style="margin-bottom: 76px;">
                             <span id="textTyped">Your AI Writer</span>
@@ -15,7 +15,7 @@
                             releases, and more in seconds
                         </p>
                         <div class="section__content-cta">
-                            <router-link to="/sign-up" class="btn btn--senary">
+                            <router-link to="/chat" class="btn btn--senary">
                                 start writing free
                             </router-link>
                             <p>7-day trial. No credit card required.</p>
@@ -54,7 +54,7 @@
             }
         },
         mounted() {
-            this.initTyped() 
+            this.initTyped()
         }
     }
 </script>

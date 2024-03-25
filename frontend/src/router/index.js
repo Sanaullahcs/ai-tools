@@ -13,6 +13,7 @@ import Blog from '@/pages/Blog.vue'
 import BlogTwo from '@/pages/BlogTwo.vue'
 import BlogSingle from '@/pages/BlogSingle.vue'
 import Contact from '@/pages/Contact.vue'
+import Chat from '@/pages/Chat.vue'
 
 Vue.use(Router)
 
@@ -28,7 +29,7 @@ export default new Router({
             name: 'ComingSoon',
             component: ComingSoon,
         },
-  
+
         {
             path: '/about',
             name: 'About Us',
@@ -84,6 +85,11 @@ export default new Router({
             name: 'Contact Us',
             component: Contact,
         },
+        {
+          path: '/chat',
+          name: 'Chat',
+          component: Chat,
+      },
     ],
     mode: "history",
     scrollBehavior() {

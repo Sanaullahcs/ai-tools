@@ -17,7 +17,7 @@
                                                     Home
                                                 </router-link>
                                             </li>
-								
+
                                 <li class="nav__menu-item nav__menu-item--dropdown">
                                     <a href="/blog-two" class="nav__menu-link">
                                         Blogs
@@ -32,7 +32,7 @@
                                     <router-link to="/contact-us" class="nav__menu-link hide-nav">Contact
                                         Us</router-link>
                                 </li>
-								
+
                                 <li class="nav__menu-item nav__menu-item--dropdown">
                                     <a href="/use-case" class="nav__menu-link">
                                         Use
@@ -80,8 +80,8 @@
                                     </ul>
                                 </li> -->
 
-                               
-								
+
+
                                 <!-- <li class="nav__menu-item d-block d-md-none">
                                     <router-link to="/sign-up" class="btn btn--septenary">
                                         Sign
@@ -150,9 +150,9 @@
                         </div>
                         <div class="nav__uncollapsed">
                             <div class="nav__uncollapsed-item d-none d-md-flex">
-                                <router-link to="/sign-up" class="btn btn--septenary">Start Writing Free</router-link>
+                                <router-link to="/chat" class="btn btn--septenary">Start Writing Free</router-link>
                             </div>
-							
+
                             <button class="nav__bar d-block d-xl-none">
                                 <span class="icon-bar top-bar"></span>
                                 <span class="icon-bar middle-bar"></span>
