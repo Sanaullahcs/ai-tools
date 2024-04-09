@@ -1,30 +1,32 @@
 <template>
   <div class="main">
     <div class="h-100 position-relative">
-      <b-row>
-        <b-col cols="12" lg="6" md="6" sm="6">
-          <div class="d-flex align-items-center">
-            <img
-              class="menuImg"
-              v-b-toggle.sidebar-variant
-              src="../assets/images/gpt/menu1.png"
-              alt=""
-            />
-            <p class="heading">ApnaGPT</p>
-          </div>
-        </b-col>
-        <b-col cols="12" lg="6" md="6" sm="6">
-          <div class="d-flex justify-content-end">
-            <img src="../assets/images/gpt/profile.svg" />
-          </div>
-        </b-col>
-      </b-row>
+      <div class="pa-3 navbar">
+        <b-row style="width: 100%">
+          <b-col cols="12" lg="6" md="6" sm="6">
+            <div class="d-flex align-items-center">
+              <img
+                class="menuImg"
+                v-b-toggle.sidebar-variant
+                src="../assets/images/gpt/menu1.png"
+                alt=""
+              />
+              <p class="heading ms-3">ApnaGPT</p>
+            </div>
+          </b-col>
+          <b-col cols="12" lg="6" md="6" sm="6">
+            <div class="d-flex justify-content-end">
+              <img src="../assets/images/gpt/profile.svg" />
+            </div>
+          </b-col>
+        </b-row>
+      </div>
       <div class="static-holder">
         <div
           class="d-flex justify-content-center align-items-center flex-column pt-5-"
         >
           <img class="mainAiImg" src="../assets/images/gpt/ai.png" alt="" />
-          <p class="gptMainText mb-5">How can I help you today?</p>
+          <p class="gptMainText mb-5 mt-3">How can I help you today?</p>
         </div>
         <div class="promptHolder">
           <b-row>
@@ -65,10 +67,16 @@
         <div class="promptHolder mt-3">
           <b-form-input
             class="promptfield"
-            v-model="text"
             placeholder="Enter prompt here..."
-          ></b-form-input>
+          >
+          <!-- <img src="../../src/assets/images/input/gallery.svg" alt="jj"> -->
+        </b-form-input>
+        <!-- <img src="../../src/assets/images/input/gallery.s vg" alt="jj"> -->
+
         </div>
+        <p class="bottomText">
+          ApnaGPT can make mistakes. Consider checking important information.
+        </p>
       </div>
     </div>
     <b-sidebar
@@ -104,17 +112,17 @@
       </template>
       <div class="px-3 py-2">
         <div>
-          <b-button class="newChat"> + New Chat </b-button>
+          <b-button class="newChat my-2"> + New Chat </b-button>
         </div>
         <div>
           <p class="recent">Recent</p>
           <div>
             <img src="../assets/images/gpt/prompt.svg" alt="" />
-            <span class="promptHeading">Wirefram Descrp...</span>
+            <span class="promptHeading my-2">Wirefram Descrp...</span>
           </div>
           <div>
             <img src="../assets/images/gpt/prompt.svg" alt="" />
-            <span class="promptHeading">Wirefram Descrp...</span>
+            <span class="promptHeading my-2">Wirefram Descrp...</span>
           </div>
         </div>
       </div>
@@ -130,27 +138,38 @@
   background-color: #131314;
   border-radius: 80px;
   border: 1px solid #38393b;
-  height: 96px;
+  height: 80px;
+  padding-left: 30px;
 }
 .promptfield::placeholder {
   color: #c5c7c5;
   font-family: "Roboto", sans-serif;
 }
 .promptHolder {
-  padding: 0 5%;
+  padding: 0 10%;
   font-family: "Roboto", sans-serif;
 }
 .Headingprompt {
   color: #c5c7c5;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
+.bottomText {
+  color: #666667;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 10px;
+  font-weight: 400;
+  line-height: normal;
+}
 .textprompt {
   color: #c5c7c5;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -161,6 +180,10 @@
   padding: 5%;
   margin-top: 10px;
   border: 1px solid #38393b;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .menuImg {
   max-width: 50px;
@@ -231,5 +254,8 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.navbar {
+  padding: 2%;
 }
 </style>
