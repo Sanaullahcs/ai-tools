@@ -26,7 +26,7 @@
           class="d-flex justify-content-center align-items-center flex-column pt-5-"
         >
           <img class="mainAiImg" src="../assets/images/gpt/ai.png" alt="" />
-          <p class="gptMainText mb-5 mt-3">How can I help you today?</p>
+          <p class="gptMainText mb-5 mt-3">How can I help you today?</p>    
         </div>
         <div class="promptHolder">
           <b-row>
@@ -69,9 +69,13 @@
             class="promptfield"
             placeholder="Enter prompt here..."
           >
-          <!-- <img src="../../src/assets/images/input/gallery.svg" alt="jj"> -->
+          <b-icon-arrow-up></b-icon-arrow-up>
+           <b-icon icon="exclamation-circle-fill" variant="danger"></b-icon>
+
         </b-form-input>
-        <!-- <img src="../../src/assets/images/input/gallery.s vg" alt="jj"> -->
+        <img src="../../src/assets/images/input/gallery.svg" alt="jj">
+        <img src="../../src/assets/images/input/mic.svg" alt="jj">
+        <img src="../../src/assets/images/input/send.svg" alt="jj">
 
         </div>
         <p class="bottomText">
@@ -151,6 +155,7 @@
 }
 .Headingprompt {
   color: #c5c7c5;
+  /* margin-top: 10px; */
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -172,6 +177,7 @@
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  margin-top: 10px;
   font-weight: 400;
   line-height: normal;
 }
@@ -184,6 +190,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.defaultPrompt:hover{
+  background-color: #38393B;
 }
 .menuImg {
   max-width: 50px;
