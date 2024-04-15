@@ -1,7 +1,8 @@
 <template>
     <div>
-        <div class="my-app">
-            <Header :logo-src="require('@/assets/images/logo.png')" />
+        <div class="my-app home-two-dark">
+            <!-- <Header :logo-src="require('@/assets/images/logo.png')" /> -->
+            <Header style="background: #111827" class="header--dark" />
             <PageHeader page-title="Blogs" />
             <section class="section pb-0 news-section">
                 <div class="container">

@@ -1,7 +1,8 @@
 <template>
     <div>
         <div class="my-app home-two-dark">
-            <Header :logo-src="require('@/assets/images/logo.png')" />
+            <!-- <Header :logo-src="require('@/assets/images/logo.png')" /> -->
+            <Header style="background: #111827" class="header--dark" />
             <PageHeader page-title="Our Team" />
             <section class="section team-main pb-0">
                 <div class="container">

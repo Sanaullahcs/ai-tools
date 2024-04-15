@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="tour__content wow fadeInUp" data-wow-duration="600ms" data-wow-delay="300ms">
-                        <video muted loop autoplay controls>
+                        <video muted loop autoplay>
                             <source :src="require('@/assets/images/video/video.mp4')" type="video/mp4">
                         </video>
                     </div>

@@ -1,16 +1,16 @@
 <template>
   <div class="main">
     <div class="h-100 position-relative">
+      <img
+        class="menuImg"
+        v-b-toggle.sidebar-variant
+        src="../assets/images/gpt/rightSlider.png"
+        alt=""
+      />
       <div class="pa-3 navbar">
         <b-row style="width: 100%">
           <b-col cols="12" lg="6" md="6" sm="6">
             <div class="d-flex align-items-center">
-              <img
-                class="menuImg"
-                v-b-toggle.sidebar-variant
-                src="../assets/images/gpt/menu1.png"
-                alt=""
-              />
               <p class="heading ms-3">ApnaGPT</p>
             </div>
           </b-col>
@@ -84,7 +84,6 @@
                       <p class="textprompt">
                         for my cafe-by-day, bar-by-night business
                       </p>
-
                       <img
                         class="arrow"
                         src="../../src/assets/images/input/arrow.svg"
@@ -172,7 +171,14 @@
       bg-variant="dark"
       text-variant="light"
       shadow
+      style="position: relative"
     >
+      <img
+        class="sliderMenu"
+        v-b-toggle.sidebar-variant
+        src="../assets/images/gpt/menuslider.png"
+        alt=""
+      />
       <template #footer="{ hide }">
         <div class="d-flex bg-dark text-light align-items-center px-3 py-2">
           <div>
@@ -321,6 +327,13 @@
 .menuImg {
   max-width: 50px;
 }
+.menuImg {
+  max-width: 50px;
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  left: 1%;
+}
 .mainAiImg {
   max-width: 100px;
 }
@@ -424,7 +437,7 @@
 .commonTxt {
   color: #c5c7c5;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 150% */
@@ -436,5 +449,16 @@
 }
 .gptActionsButton img {
   cursor: pointer;
+}
+.sliderMenu {
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  max-width: 40px;
+}
+</style>
+<style>
+.close svg {
+  display: none !important;
 }
 </style>

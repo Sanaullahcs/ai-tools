@@ -1,7 +1,8 @@
 <template>
     <div>
         <div class="my-app">
-            <Header :logo-src="require('@/assets/images/logo.png')" />
+            <!-- <Header :logo-src="require('@/assets/images/logo.png')" /> -->
+            <Header style="background: #111827" class="header--dark" />
             <PageHeader page-title="Sign In"/>
             <section class="section authentication pb-0">
                 <div class="container">

@@ -1,5 +1,5 @@
 <template>
-    <section class="section eraser eraser-two">
+    <section style="background-color: #111827;" class="section eraser eraser-two">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">

@@ -15,16 +15,16 @@
                             <a href="https://themeforest.net/user/gramentheme">Gramentheme</a>
                         </p>
                         <div class="social">
-                            <a href="https://www.facebook.com" aria-label="social media">
+                            <a href="https://www.facebook.com" target="_blank" aria-label="social media">
                                 <i class="fa-brands fa-facebook-f"></i>
                             </a>
-                            <a href="https://www.twitter.com" aria-label="social media">
+                            <a href="https://www.twitter.com" target="_blank" aria-label="social media">
                                 <i class="fa-brands fa-twitter"></i>
                             </a>
-                            <a href="https://www.linkedin.com" aria-label="social media">
+                            <a href="https://www.linkedin.com" target="_blank" aria-label="social media">
                                 <i class="fa-brands fa-linkedin-in"></i>
                             </a>
-                            <a href="https://www.instagram.com" aria-label="social media">
+                            <a href="https://www.instagram.com" target="_blank" aria-label="social media">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                         </div>

@@ -1,5 +1,5 @@
 <template>
-    <section class="section use-case use-case-alt">
+    <section style="background-color: #111827;" class="section use-case use-case-alt">
         <div class="container">
             <div class="row">
                 <div class="col-12">

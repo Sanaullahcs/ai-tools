@@ -1,7 +1,8 @@
 <template>
     <div>
-        <div class="my-app">
-            <Header :logo-src="require('@/assets/images/logo.png')" />
+        <div class="my-app home-two-dark">
+            <!-- <Header :logo-src="require('@/assets/images/logo.png')" /> -->
+            <Header style="background: #111827" class="header--dark" />
             <PageHeader page-title="There Are Many Variations Of Passages" />
             <section class="section blog-main blog-details pb-0">
                 <div class="container">
