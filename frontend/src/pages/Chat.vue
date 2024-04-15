@@ -94,7 +94,7 @@
               </div>
             </div>
             <!-- After the response -->
-            <div style="margin: 0 10%">
+            <!-- <div style="margin: 0 10%">
               <div>
                 <div class="userPromptProfile">
                   <img src="../assets/images/gpt/profile.svg" />
@@ -141,7 +141,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="promptHolder mt-3">
             <b-form-input
@@ -226,6 +226,7 @@
 .static-holder {
   position: absolute;
   bottom: 10px;
+  width: 100%;
 }
 .promptfield {
   background-color: #131314;
@@ -255,7 +256,7 @@
 }
 .Headingprompt {
   color: #c5c7c5;
-  font-size: 18px;
+  font-size: 17px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -265,7 +266,7 @@
   color: #666667;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   margin-top: 10px;
   font-weight: 400;
@@ -273,7 +274,7 @@
 }
 .textprompt {
   color: #c5c7c5;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   margin-top: 10px;
@@ -397,13 +398,17 @@
   line-height: normal;
 }
 .gptMainText {
-  color: #c5c7c5;
+  /* color: #c5c7c5; */
   text-align: center;
   font-size: 40px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  background-image: linear-gradient(to right, #8e00ff, #da1b60);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 .navbar {
   padding: 2%;
