@@ -7,7 +7,7 @@
                     <div class="nav__content">
                         <div class="nav__logo">
                             <router-link to="/">
-                                <img :src="require('@/assets/images/logo-three.png')" alt="Logo" />
+                                <img  class="logo" :src="require('@/assets/images/logo-three.png')" alt="Logo" />
                             </router-link>
                         </div>
                         <div class="nav__menu">
@@ -192,4 +192,10 @@ export default {
 </script>
 
 <style>
+.logo{
+  border-radius: 50%;
+    width: 80px;
+    /* height: 200px; */
+    object-fit: cover;
+}
 </style>

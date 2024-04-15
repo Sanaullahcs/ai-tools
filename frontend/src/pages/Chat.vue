@@ -31,9 +31,13 @@
               >
                 <img
                   class="mainAiImg"
-                  src="../assets/images/gpt/ai.png"
+                  src="../assets/images/logo-three.png"
                   alt=""
                 />
+                <!-- <img
+                  :src="require('@/assets/images/logo-three.png')"
+                  alt="Logo"
+                /> -->
                 <p class="gptMainText mb-5 mt-3">How can I help you today?</p>
               </div>
               <div class="promptHolder">
@@ -337,6 +341,10 @@
 }
 .mainAiImg {
   max-width: 100px;
+  border-radius: 50%;
+  /* width: 200px; */
+  /* height: 200px; */
+  object-fit: cover;
 }
 .promptHeading {
   color: #c5c7c5;
